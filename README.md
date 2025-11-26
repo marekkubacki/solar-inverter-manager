@@ -2,8 +2,11 @@ Smart Inverter-Based Load & Heating Management
 Central Heating + Domestic Hot Water (DHW) Automation
 
 This project contains a distributed ESP32-based system that manages two separate heating circuits using real-time data from a photovoltaic inverter:
+
   Central Heating Circuit (water used for radiators)
+  
   Domestic Hot Water (DHW) System (water used for showering, washing, etc.)
+  
 The goal is to maximize solar energy usage and prevent drawing power from the electrical grid.
 
 
