@@ -1,4 +1,4 @@
-Smart Inverter-Based Load & Heating Management
+**Smart Inverter-Based Load & Heating Management**
 Central Heating + Domestic Hot Water (DHW) Automation
 
 This project contains a distributed ESP32-based system that manages two separate heating circuits using real-time data from a photovoltaic inverter:
@@ -10,35 +10,35 @@ This project contains a distributed ESP32-based system that manages two separate
 The goal is to maximize solar energy usage and prevent drawing power from the electrical grid.
 
 
-Project Structure:
+**Project Structure:**
 
 
-1. inverter-communication.ino
+**1. inverter-communication.ino**
    
-Main controller — manages the Central Heating Circuit
+  Main controller — manages the Central Heating Circuit
+  
+  This ESP32 communicates directly with the solar inverter and obtains:
+  
+  - current PV production
+  
+  - available surplus energy
+  
+  - grid import/export power
+  
+  - overall inverter status
 
-This ESP32 communicates directly with the solar inverter and obtains:
-
-- current PV production
-
-- available surplus energy
-
-- grid import/export power
-
-- overall inverter status
-
-Based on this data, it:
-
-- controls the heating elements of the Central Heating Circuit (radiators)
-
-- determines how much surplus energy remains available for heating domestic hot water
-
-- sends the calculated maximum allowed heating power to the Boiler Heating Controller
-
-This unit makes all real-time energy decisions and ensures the system never exceeds available solar power.
+  Based on this data, it:
+  
+  - controls the heating elements of the Central Heating Circuit (radiators)
+  
+  - determines how much surplus energy remains available for heating domestic hot water
+  
+  - sends the calculated maximum allowed heating power to the Boiler Heating Controller
+  
+  This unit makes all real-time energy decisions and ensures the system never exceeds available solar power.
 
 
-2. temp-measuring.ino
+**2. temp-measuring.ino**
 
 Temperature monitoring for the DHW boiler
 
@@ -57,7 +57,7 @@ Responsibilities:
 This device does not control any relays — it only provides data.
 
 
-3. boiler-heating-controller.ino
+**3. boiler-heating-controller.ino**
 
 Controls the Domestic Hot Water (DHW) heating system
 
