@@ -9,8 +9,10 @@ This project contains a distributed ESP32-based system that manages two separate
   
 The goal is to maximize solar energy usage and prevent drawing power from the electrical grid.
 
+<br><br>
 
 **Project Structure:**
+<br><br>
 
 **1. inverter-communication.ino**
    
@@ -36,7 +38,7 @@ The goal is to maximize solar energy usage and prevent drawing power from the el
   
   This unit makes all real-time energy decisions and ensures the system never exceeds available solar power.
 
-
+<br><br>
 **2. temp-measuring.ino**
 
   Temperature monitoring for the DHW boiler
@@ -55,7 +57,7 @@ The goal is to maximize solar energy usage and prevent drawing power from the el
   
   This device does not control any relays — it only provides data.
   
-
+<br><br>
 **3. boiler-heating-controller.ino**
 
   Controls the Domestic Hot Water (DHW) heating system
