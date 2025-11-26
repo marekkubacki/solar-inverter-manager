@@ -11,7 +11,7 @@ The goal is to maximize solar energy usage and prevent drawing power from the el
 
 
 **Project Structure:**
-
+<br>
 
 **1. inverter-communication.ino**
    
