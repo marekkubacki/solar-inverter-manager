@@ -9,13 +9,9 @@ This project contains a distributed ESP32-based system that manages two separate
   
 The goal is to maximize solar energy usage and prevent drawing power from the electrical grid.
 
-
+<br>
 **Project Structure:**
-
-
-
-        
-
+<br>
 **1. inverter-communication.ino**
    
   Main controller — manages the Central Heating Circuit
