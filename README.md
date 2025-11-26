@@ -81,3 +81,11 @@ The goal is to maximize solar energy usage and prevent drawing power from the el
   - manages relays for the boiler’s heating elements
   
   This unit ensures the DHW system uses only the energy that is actually available.
+
+<img width="894" height="714" alt="image" src="https://github.com/user-attachments/assets/c1d12a0b-e89e-4b7f-96ca-f5af2ebb9c6c" />
+
+<img width="1199" height="901" alt="image" src="https://github.com/user-attachments/assets/78db2dab-ea20-42d3-b810-09e48c1b3df8" />
+
+<img width="452" height="608" alt="image" src="https://github.com/user-attachments/assets/f7e0e8a6-ffdb-4488-b649-e94017d8ced4" />
+
+
